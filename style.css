@@ -1,0 +1,1044 @@
+* {
+  font-family: roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.Container-judul::before {
+  content: "";
+  background-image: url(Asset/pexels-kumar-saurabh.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.Teks {
+  padding-top: 200px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 30px;
+  height: 100vh;
+  margin-bottom: 0.5rem;
+}
+
+.Button {
+  background-color: gold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 40px;
+  box-shadow: 0px 5px #888888;
+}
+
+.Button:hover {
+  background-color: white;
+  color: gold;
+}
+
+.navbar {
+  background-color: #d4af37;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  filter: blur();
+  width: 50%;
+  margin: auto;
+  border-radius: 35px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: gold;
+  color: #333;
+  border-radius: 35px;
+}
+
+.Container-quotes {
+  background-image: url(Asset/floral_pattern_indian.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin-top: -2.9rem;
+  width: 100%;
+  height: 100%;
+}
+
+.Teks2 {
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+  color: white;
+  padding-top: 170px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-left: 250px;
+  margin-right: 250px;
+  line-height: 2rem;
+}
+
+.Teks2 p {
+  font-family: "Scheherazade New", serif;
+}
+
+.background-profile {
+  background-image: url(Asset/seamless-hand-drawn-mandala-seamless-pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  min-height: 200vh;
+}
+
+.tekspengantin {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: -1400px;
+  margin-bottom: 2rem;
+}
+
+.tekspengantin p {
+  font-family: "Times New Roman";
+}
+
+.tekspengantin h3 {
+  font-family: "Great Vibes", cursive;
+}
+
+.pasangan {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.pasangan h2 {
+  font-family: "Great Vibes", cursive;
+}
+
+.pasangan p {
+  font-family: "Times New Roman";
+}
+
+.laki-laki img {
+  width: 250px;
+  border: 10px solid #c7833a;
+  border-radius: 100px;
+}
+
+.perempuan img {
+  width: 250px;
+  border: 10px solid #c7833a;
+  border-radius: 100px;
+}
+
+.widget-love {
+  position: relative;
+  top: 75px;
+  color: pink;
+}
+
+#Couple h2 {
+  text-align: center;
+  position: relative;
+  right: 5px;
+  padding-top: 20px;
+}
+
+#Couple p {
+  text-align: center;
+  position: relative;
+  right: 5px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.widget-instagram {
+  background-color: #c7833a;
+  width: fit-content;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  left: 90px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.widget-instagram:hover {
+  background-color: gold;
+}
+
+.wedding-date {
+  min-height: 100vh;
+}
+
+.background-date {
+  background-image: url(Asset/backround-wedding-date.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  filter: grayscale();
+}
+
+.teks-wedding {
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: -600px;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.teks-wedding p {
+  font-family: "Times New Roman";
+}
+
+.teks-wedding h3 {
+  font-family: "Times New Roman";
+}
+
+.Button-calendar {
+  text-decoration: none;
+  color: white;
+  background-color: gold;
+  border-radius: 50px;
+  padding: 15px 32px;
+  box-shadow: 0px 5px #888888;
+}
+
+.Button-calendar:hover {
+  background-color: white;
+  color: gold;
+}
+
+.date-location {
+  background-color: #c7833a;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.informasi-acara {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.informasi-acara h2 {
+  font-family: "Great Vibes", cursive;
+  color: white;
+  font-size: 40px;
+}
+
+.informasi-acara p {
+  font-family: "Times New Roman";
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.card-1 {
+  border: 1px solid gray;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: #fff;
+}
+
+.card-2 {
+  border: 1px solid gray;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: #fff;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.card-tittle {
+  text-align: center;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-content {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: whitesmoke;
+}
+
+.gallery {
+  background-color: white;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.img-l-top {
+  position: absolute;
+  left: -100px;
+  top: 0px;
+  z-index: 4;
+}
+.img-r-top {
+  position: absolute;
+  right: -100px;
+  top: 0px;
+  z-index: 4;
+  transform: scaleX(-1);
+}
+
+.teks-gallery {
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 100px;
+  color: #c7833a;
+  font-weight: bold;
+}
+
+.teks-gallery h1 {
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+}
+
+.teks-gallery h2 {
+  font-family: "Times New Roman", cursive;
+}
+
+.teks-gallery p {
+  font-family: "Times New Roman";
+}
+
+.image-gallery {
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.image-gallery img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.image-gallery img:hover {
+  transform: scale(0.8) rotate(-15deg);
+  border-radius: 20px;
+  box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+
+.rsvp-container {
+  background-image: url("Asset/Ganesha.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.teks-rsvp {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 100px;
+  color: black;
+  font-weight: bold;
+}
+
+.teks-rsvp h2 {
+  font-family: "Great Vibes", cursive;
+}
+
+.teks-rsvp p {
+  font-family: "Times New Roman";
+}
+
+#rsvp {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+input,
+select,
+textarea {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkbox label {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+#Submit {
+  background-color: #ff9933;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+#Submit:hover {
+  background-color: #e68a00;
+}
+
+.turut-mengundang-container {
+  background-color: white;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.teks-turut-mengundang h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 100px;
+  color: #c7833a;
+  font-weight: bold;
+  font-family: "Great Vibes", cursive;
+}
+
+.invitation-table {
+  width: 85%;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+.invitation-table th,
+.invitation-table td {
+  border: 1px solid #ffffff;
+  padding: 28px;
+  font-size: 16px;
+}
+
+.invitation-table th {
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+
+.invitation-table tbody tr:nth-child(even) {
+  background-color: #f39c12;
+}
+
+.invitation-table tbody tr:nth-child(odd) {
+  background-color: #f1c40f;
+}
+
+.invitation-table td {
+  color: #ffffff;
+  text-align: left;
+}
+.story {
+  background-color: white;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.teks-story {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #c7833a;
+  font-weight: bold;
+}
+
+.teks-story h1 {
+  font-family: "Great Vibes", cursive;
+}
+
+.teks-story h2 {
+  font-family: "Great Vibes", cursive;
+}
+
+.teks-story p {
+  font-family: "Times New Roman", cursive;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+}
+
+.slider ::-webkit-scrollbar {
+  display: none;
+}
+
+.konten-slide {
+  display: flex;
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.konten-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  text-align: center;
+  width: fit-content;
+  font-family: "Times New Roman";
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.ucapan-container {
+  background-image: url("Asset/taj-mahal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 120vh;
+}
+
+.teks-ucapan h3 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 2rem;
+  font-family: "Great Vibes", cursive;
+  color: #c7833a;
+}
+
+#displayUcapan {
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+#ucapanList {
+  margin: auto;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ucapan-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ucapan-item p {
+  margin: 5px 0;
+  font-size: 1em;
+
+  font-family: "Times New Roman";
+}
+
+.ucapan-item #nama {
+  font-weight: bold;
+  color: #333;
+}
+
+.ucapan-item2 {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ucapan-item2 p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+.ucapan-item2 #nama {
+  font-weight: bold;
+  color: #333;
+}
+
+.ucapan-doa {
+  max-width: 500px;
+  padding: 50px;
+  padding-top: 10px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.form-group {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+#doaForm input[type="submit"] {
+  background-color: #ff9933;
+  max-width: 500px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+#doaForm input[type="submit"]:hover {
+  background-color: #e68a00;
+}
+
+.gift {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.lotus-l-top {
+  position: absolute;
+  left: 200px;
+  margin-top: 200px;
+  z-index: 1;
+}
+
+.lotus-r-top {
+  position: absolute;
+  right: 200px;
+  margin-top: 200px;
+  z-index: 1;
+}
+
+.teks-gift {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 100px;
+  font-weight: bold;
+}
+
+.teks-gift h1 {
+  font-family: "Great Vibes", cursive;
+  color: #d4af37;
+}
+
+.teks-gift h2 {
+  font-family: "Great Vibes", cursive;
+  color: #d4af37;
+}
+
+.teks-gift p {
+  color: #d4af37;
+}
+
+.gift-table {
+  margin: 5px auto 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  background-color: #fff;
+}
+
+.gift-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.gift-table td.centered {
+  text-align: center;
+}
+
+.gift-table strong {
+  font-size: 1.1em;
+}
+
+.qr-code {
+  width: 150px;
+  height: 150px;
+}
+
+.gift-table tr:last-child td {
+  border-bottom: none;
+}
+
+.thankyou {
+  min-height: 100vh;
+  background-image: url(Asset/pexels-kumar-saurabh.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.thankyou-teks {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 200px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.thankyou-teks p {
+  font-family: "Times New Roman";
+}
+
+.thankyou-teks h2 {
+  font-family: "Times New Roman";
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  z-index: 999;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MEDIA */
+@media (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+
+  .navbar {
+    padding: 8px;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    margin: auto;
+  }
+
+  .navbar li {
+    padding-right: 15px;
+  }
+
+  .Container-quotes {
+    font-size: 75%;
+  }
+
+  .Teks2 {
+    size: 1.5rem;
+    margin: 0px 0px 0px 0px;
+    --e--column-margin-right: 0px;
+    --e--column-margin-left: 0px;
+    padding: 250px 0px 100px 0px;
+  }
+
+  .timeline::before {
+    left: 60px;
+  }
+
+  .timeline li .timeline-image {
+    left: 15px;
+    margin-left: 45px;
+    top: 16px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .timeline li .timeline-panel {
+    width: calc((100% - 200px));
+    float: right;
+  }
+
+  .timeline li.timeline-inverted .timeline-panel {
+    width: calc((100% - 200px));
+    float: right;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+
+  .navbar {
+    padding: 10px;
+    width: 85%;
+    margin: auto;
+  }
+
+  .navbar li {
+    padding-right: 5px;
+  }
+
+  .Teks2 {
+    margin: 0px 0px 0px 0px;
+    --e--column-margin-right: 0px;
+    --e--column-margin-left: 0px;
+    padding: 250px 0px 100px 0px;
+  }
+
+  .timeline li .timeline image {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+
+  .navbar {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Teks2 {
+    margin: 0px 0px 0px 0px;
+    --e--column-margin-right: 0px;
+    --e--column-margin-left: 0px;
+    padding: 250px 0px 100px 0px;
+  }
+
+  .background-profile {
+    min-height: 210vh;
+  }
+
+  .tekspengantin {
+    margin-top: -1350px;
+  }
+
+  .pasangan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .widget-love {
+    display: none;
+  }
+
+  .Button-calendar {
+    position: relative;
+    top: 50px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 20px;
+    gap: 10px;
+  }
+
+  .img-l-top {
+    position: absolute;
+    left: -50px;
+    top: 0px; /* Sesuaikan sesuai kebutuhan */
+  }
+  .img-r-top {
+    position: absolute;
+    right: -50px;
+    top: 0px; /* Sesuaikan sesuai kebutuhan */
+    transform: scaleX(-1);
+  }
+
+  .timeline li .timeline-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(-20px);
+  }
+
+  .timeline li.timeline-inverted .timeline-panel {
+    width: 65%;
+    transform: translateX(-20px);
+  }
+
+  .lotus-l-top {
+    position: absolute;
+    left: 7.5vw;
+  }
+
+  .lotus-r-top {
+    position: absolute;
+    right: 7.5vw;
+  }
+
+  .slider-wrapper {
+    width: 80%;
+    height: 80%;
+  }
+}

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Scheherazade+New:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Scheherazade+New:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Simply Countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+    <script src="script.js" defer></script>
+
+    <title>Surat Undangan Indian</title>
+  </head>
+  <body>
+    <div class="Container-judul" id="Container-judul">
+      <div class="Teks">
+        <p>The Wedding of</p>
+        <h1>Fulan & Fulin</h1>
+        <p>01 . 09. 2025</p>
+        <h2>Special invite to:</h2>
+        <p>Nama kamu</p>
+        <a href="#Container-quotes" class="Button" onclick="playAudio()"
+          ><i class="fa-regular fa-envelope"></i> Buka undangan</a
+        >
+      </div>
+    </div>
+    <section class="sections" hidden>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#Container-quotes"
+              ><i class="fa-solid fa-house"></i> Rumah</a
+            >
+          </li>
+          <li>
+            <a href="#Couple-profile"
+              ><i class="fa-solid fa-heart"></i> Pasangan</a
+            >
+          </li>
+          <li>
+            <a href="#wedding-date"
+              ><i class="fa-solid fa-calendar"></i> Tanggal</a
+            >
+          </li>
+          <li>
+            <a href="#date-location"
+              ><i class="fa-solid fa-location-dot"></i> Lokasi</a
+            >
+          </li>
+          <li>
+            <a href="#ucapan"><i class="fa-solid fa-note-sticky"></i> Ucapan</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="Container-quotes" id="Container-quotes">
+        <div class="Teks2">
+          <img src="Asset/quotes_decor.png" alt="" width="30%" />
+          <p>
+            وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا
+            لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً ۚ
+            إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِقَوْمٍ يَتَفَكَّرُونَ <br /><br />
+            Artinya: “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia
+            menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu
+            cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya
+            diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian
+            itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.” (QS.
+            Ar-Rum: 21)
+          </p>
+          <img
+            src="Asset/quotes_decor.png"
+            alt=""
+            width="30%"
+            style="transform: rotate(180deg)"
+          />
+        </div>
+      </div>
+      <div class="Couple-profile" id="Couple-profile">
+        <div class="background-profile"></div>
+        <div class="tekspengantin">
+          <img
+            src="Asset/Pngtreemandala gold transparent background islamic.png"
+            alt=""
+            width="10%"
+          />
+          <h3>Pasangan</h3>
+          <br />
+          <h3>Pengantin</h3>
+          <br />
+          <p>
+            Maha suci Allah SWT, yang telah menciptakan makhluknya berpasang
+            pasangan. Ya Allah, perkenakanlah dan Ridhoilah Pernikahan kami
+          </p>
+        </div>
+        <div class="pasangan">
+          <div class="laki-laki" id="Couple">
+            <img src="Asset/man.jpeg" alt="" />
+            <h2>Fulan</h2>
+            <p>
+              Putra Pertama dari <br />
+              Bapak Boedot <br />
+              & <br />
+              Ibu Dewi
+            </p>
+            <div class="widget-instagram">
+              <a href="https://www.instagram.com/akmal_flah/?hl=en"
+                ><i class="fa-brands fa-instagram fa-2x"></i
+              ></a>
+            </div>
+          </div>
+          <div class="widget-love"><i class="fa-solid fa-heart fa-2x"></i></div>
+          <div class="perempuan" id="Couple">
+            <img src="Asset/woman.jpeg" alt="" />
+            <h2>Fulin</h2>
+            <p>
+              Putri Kedua dari <br />
+              Bapak Abdul <br />
+              & <br />
+              Ibu Mei
+            </p>
+            <div class="widget-instagram">
+              <a href="https://www.instagram.com/akmal_flah/?hl=en"
+                ><i class="fa-brands fa-instagram fa-2x"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wedding-date" id="wedding-date">
+        <div class="background-date"></div>
+        <div class="teks-wedding">
+          <img
+            src="Asset/Pngtreemandala gold transparent background islamic.png"
+            alt=""
+            width="10%"
+          />
+          <p>Hitung Mundur</p>
+          <h3>Menuju Hari Bahagia</h3>
+          <div class="simply-countdown"></div>
+          <a
+            href="https://www.google.com/calendar/render?action=TEMPLATE&text=Jadwal%20Pernikahan%20Fulan%20%26%20Fulin&dates=20250901T030000Z/20250901T050000Z&location=Jakarta"
+            class="Button-calendar"
+            ><i class="fa-solid fa-calendar"></i> Google Calendar</a
+          >
+        </div>
+      </div>
+      <div class="date-location" id="date-location">
+        <div class="informasi-acara">
+          <h2>Informasi acara</h2>
+          <p>
+            Alamat : Gedung Serbaguna Bellavista <br />Jl. Raya Jati Makmur
+            No.100, Jatimakmur, Kec. Pd. Gede, Kota Bks, Jawa Barat 17413
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8452126426037!2d106.92290087192421!3d-6.284068866427224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d448e95336f%3A0xf2186c7b64305948!2sGedung%20Serbaguna%20Bellavista!5e0!3m2!1sid!2sid!4v1726100186562!5m2!1sid!2sid"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <p>
+            Diharapkan tidak salah alamat dan tanggal. Manakala tiba di tujuan
+            namun tidak ada tanda tanda sedang dilangsungkan Pernikahan, boleh
+            jadi anda salah jadwal, atau salah tempat.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-1" id="card">
+            <div class="card-tittle">
+              <h2>Akad nikah</h2>
+              <br />
+              <hr />
+            </div>
+            <div class="card-content">
+              <div class="row-card-content">
+                <p><i class="fa-solid fa-clock"></i> 08.00 - 10.00</p>
+                <p>
+                  <i class="fa-solid fa-calendar"></i> Minggu, 1 September 2025
+                </p>
+                <br />
+                <hr />
+              </div>
+            </div>
+            <div class="card-footer">
+              <p>
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan
+                dan kekhusyuan seluruh profesi.
+              </p>
+            </div>
+          </div>
+          <div class="card-2" id="card">
+            <div class="card-tittle">
+              <h2>Resepsi</h2>
+              <br />
+              <hr />
+            </div>
+            <div class="card-content">
+              <div class="row-card-content">
+                <p><i class="fa-solid fa-clock"></i> 11.00 - Selesai</p>
+                <p>
+                  <i class="fa-solid fa-calendar"></i> Minggu, 1 September 2025
+                </p>
+                <br />
+                <hr />
+              </div>
+            </div>
+            <div class="card-footer">
+              <p>
+                Saat acara resepsi diharapkan untuk kondusif menjaga kekhidmatan
+                dan kekhusyuan seluruh profesi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="hiasan">
+          <img
+            class="img-l-top"
+            src="Asset/Pngtreemandala gold transparent background islamic.png"
+            alt=""
+            width="20%"
+          />
+          <img
+            class="img-r-top"
+            src="Asset/Pngtreemandala gold transparent background islamic.png"
+            alt=""
+            width="20%"
+          />
+        <div class="teks-gallery">
+          <h1>Moment yang berharga</h1>
+          <h2>Gallery</h2>
+          <p>
+            Menciptakan kenangan adalah hadiah yang tak ternilai harganya.
+            Kenangan akan bertahan seumur hidup; benda-benda hanya dalam waktu
+            singkat
+          </p>
+        </div>
+        <div class="image-gallery">
+          <img src="https://picsum.photos/id/13/401/501" alt="" />
+          <img src="Asset/gallery/gallery-2.jpg" alt="" />
+          <img src="https://picsum.photos/id/14/401/501" alt="" />
+          <img src="Asset/gallery/gallery-4.jpg" alt="" />
+          <img src="https://picsum.photos/id/15/401/501" alt="" />
+          <img src="https://picsum.photos/id/16/401/501" alt="" />
+          <img src="Asset/gallery/gallery-7.jpg" alt="" />
+          <video controls width="301" height="201">
+            <source src="Asset/video-gallery.mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="rsvp-container">
+        <div class="teks-rsvp">
+          <h2>Konfirmasi kehadiran</h2>
+          <p>Isi form dibawah ini untuk mendaftar kehadiran anda</p>
+        </div>
+        <div id="rsvp">
+          <form class="rsvpForm">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="attendance">Apakah anda akan hadir?</label>
+            <div class="radio-group">
+              <input type="radio" id="hadir" value="Hadir" name="kehadiran" />
+              <label for="hadir">Hadir</label>
+
+              <input
+                type="radio"
+                id="tidak_hadir"
+                value="Tidak hadir"
+                name="kehadiran"
+              />
+              <label for="tidak_hadir">Tidak hadir</label>
+            </div>
+            <label for="guest">Jumlah Tamu yang akan hadir</label>
+            <input
+              type="number"
+              id="guest"
+              name="guest"
+              min="0"
+              max="10"
+              placeholder="Maksimal tamu 10 orang"
+            />
+            <div class="checkbox">
+              <input type="checkbox" name="konfirmasi" />
+              <label for="disability">Saya pengidap disabilitas</label>
+              <input type="checkbox" name="konfirmasi">
+              <label for="preferensi">Saya punya preferensi makanan</label>
+            </div>
+
+            <label for="pesan_tambahan">Pesan Tambahan</label>
+            <textarea
+              name="pesan_tambahan"
+              id="pesan_tambahan"
+              rows="4"
+              placeholder="Tambahkan pesan tambahan anda (opsional)"
+            ></textarea>
+
+            <input type="submit" id="Submit" value="Kirim" />
+          </form>
+        </div>
+      </div>
+      <div class="turut-mengundang-container">
+        <div class="teks-turut-mengundang">
+          <h2>Kami Turut Mengundang Keluarga Besar</h2>
+        </div>
+        <table class="invitation-table">
+          <thead>
+            <tr>
+              <th rowspan="2">Nama</th>
+              <th colspan="2">Hubungan</th>
+            </tr>
+            <tr>
+              <th>Keluarga</th>
+              <th>Non keluarga</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pak boedot</td>
+              <td>Ayah</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Ibu Dewi</td>
+              <td>Ibu</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Puji</td>
+              <td></td>
+              <td>Pak rt 14</td>
+            </tr>
+            <tr>
+              <td>Agus</td>
+              <td></td>
+              <td>Dkm masjid</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="story">
+        <div class="teks-story">
+          <h1>Bagaimana cinta kami bersemi?</h1>
+          <h2>Cerita kami</h2>
+          <p>Beginilah kisah dari alur kita selama 5 tahun</p>
+        </div>
+      <div class="timeline">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="konten-slide" id="#slide-1">
+              <div class="caption">
+                <h3>2020</h3>
+                <p>Pertama bertemu</p>
+              </div>
+              <img id="slide-1" src="Asset/couple-cafe-looking-smartphone-screen.jpg" alt="gambar orang" />
+            </div>
+            <div class="konten-slide" id="#slide-2">
+              <div class="caption">
+                <h3>2024</h3>
+                <p>Mulai serius</p>
+              </div>
+              <img id="slide-2" src="Asset/affectionate-indian-couple-celebrating-propose-day-together.jpg" alt="gambar orang" />
+            </div>
+            <div class="konten-slide" id="#slide-3">
+              <div class="caption">
+                <h3>2025</h3>
+                <p>Akhirnya kita menikah</p>
+              </div>
+              <img id="slide-3" src="Asset/pexels-kumar-saurabh.jpg" alt="gambar orang" />
+            </div>
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="ucapan-container" id="ucapan">
+        <div class="teks-ucapan">
+          <h3>Ucapan dan Doa</h3>
+        </div>
+        <div id="displayUcapan">
+          <div id="ucapanList">
+            <div class="ucapan-item">
+              <div id="nama">
+                <h2>Akmal</h2>
+                <p>dari Bekasi</p>
+                <p>"Selamat untuk pernikahan kalian"</p>
+              </div>
+            </div>
+            <div class="ucapan-item2">
+              <div id="nama">
+                <h2>Dewi</h2>
+                <p>dari Depok</p>
+                <p>
+                  "Selamat yaa untuk kalian semoga menjadi keluarga mawadah
+                  warohmah"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ucapan-doa">
+          <form id="doaForm">
+            <h2>Kirim ucapan:</h2>
+            <div class="form-group">
+              <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Masukkan Nama Anda"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="kota"
+                name="kota"
+                placeholder="Tinggal di kota"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="pesan"
+                id="pesan"
+                rows="4"
+                placeholder="Tuliskan Ucapan & Doa anda disini"
+                required
+              ></textarea>
+            </div>
+            <input type="submit" value="Kirim" />
+          </form>
+        </div>
+      </div>
+
+      <div class="gift">
+        <img src="Asset/lotus.png" alt="" class="lotus-l-top" width="100px" />
+        <img src="Asset/lotus.png" alt="" class="lotus-r-top" width="100px" />
+        <div class="teks-gift">
+          <h1>Ungkapan tanda kasih</h1>
+          <h2>Kirim Hadiah</h2>
+          <p>
+            Catatan kado atau kata kata terimakasih untuk yang memberikan
+            hadiah. di menu (Amplop digital)
+          </p>
+        </div>
+        <table class="gift-table">
+          <tr>
+            <td><strong>BCA</strong></td>
+          </tr>
+          <tr>
+            <td style="border-bottom: none">
+              123456789 - MUHAMMAD AKMAL FALAH
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="rek" onclick="copyText('123456789')">
+                Copy rekening
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>MANDIRI</strong></td>
+          </tr>
+          <tr>
+            <td style="border-bottom: none">
+              987654321 - MUHAMMAD AKMAL FALAH
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="rek" onclick="copyText('987654321')">
+                Copy rekening
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="centered"><strong>Gopay</strong></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="centered">
+              <img src="Asset/qr.jpg" alt="QR Code" class="qr-code" />
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="thankyou">
+        <div class="thankyou-teks">
+          <p>Terima Kasih</p>
+          <h2>Fulan & Fulin</h2>
+        </div>
+      </div>
+    </section>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/weddingsong.mp3" type="audio/mp3" />
+      </audio>
+      <div class="audio-icon-wrapper">
+        <i class="fa-solid fa-compact-disc" id="disc" style="display: none"></i>
+      </div>
+    </div>
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2025, // required
+        month: 9, // required
+        day: 1, // required
+        hours: 8, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+  </body>
+</html>
